@@ -18,6 +18,12 @@ app.use("/api/services", serviceRoutes);
 app.use("/api/notices", noticeRoutes);
 app.use("/api/gallery", galleryRoutes);
 
+app.get("/", (req, res) => {
+  res.json({
+    status: "OK",
+    message: "GCH Hospital API is running",
+  });
+});
 // Error Handling Middleware
 app.use(notFound);
 app.use(errorHandler);
