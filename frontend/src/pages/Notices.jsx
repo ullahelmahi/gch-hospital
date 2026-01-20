@@ -86,7 +86,7 @@ const Notices = () => {
         <h1 className="text-2xl font-semibold">Notices</h1>
         <button
           onClick={() => handleAddEdit()}
-          className="btn btn-primary gap-2"
+          className="flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-500 transition shadow-sm hover:shadow-md"
         >
           <Plus size={18} />
           Add Notice

@@ -99,7 +99,7 @@ const Services = () => {
 
         <button
           onClick={handleAdd}
-          className="flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-white hover:bg-primary/90 transition"
+          className="flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-500 transition shadow-sm hover:shadow-md"
         >
           <Plus size={18} />
           Add Service
