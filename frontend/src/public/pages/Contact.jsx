@@ -46,7 +46,7 @@ const Contact = () => {
               <div className="flex items-center gap-3">
                 <Phone className="text-primary" />
                 <p className="text-slate-700">
-                  +880 1339-873031 <br />
+                  +880 1339-873131 <br />
                   +880 1339-873132 <br />
                   +880 1712-228740
                 </p>
@@ -55,7 +55,7 @@ const Contact = () => {
               <div className="flex items-center gap-3">
                 <Mail className="text-primary" />
                 <p className="text-slate-700">
-                  info@gchhospital.com
+                  info.gch19@gmail.com
                 </p>
               </div>
 
@@ -84,7 +84,7 @@ const Contact = () => {
                 Emergency Hotline
               </p>
               <p className="text-3xl font-bold text-red-700 mt-2">
-                +880 1339-873031
+                +880 1339-873131
               </p>
             </div>
           </div>
