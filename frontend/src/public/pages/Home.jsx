@@ -49,7 +49,11 @@ const Home = () => {
           </div>
         ))}
 
-        <div className="absolute inset-0 flex items-center justify-center text-center text-white px-4">
+        
+      </div>
+
+      {/* ================= WELCOME ================= */}
+      <div className="absolute inset-0 flex items-center justify-center text-center text-white px-4">
           <div>
             <h1 className="text-3xl md:text-5xl font-bold">
               Gaibandha Central Hospital
@@ -58,10 +62,7 @@ const Home = () => {
               Trusted Healthcare & Digital Pathology Services
             </p>
           </div>
-        </div>
       </div>
-
-      {/* ================= WELCOME ================= */}
       <div className="max-w-7xl mx-auto px-4 py-16 text-center">
         <h2 className="text-2xl md:text-3xl font-bold text-slate-800">
           Welcome to Gaibandha Central Hospital
