@@ -141,7 +141,7 @@ const Home = () => {
           </h2>
 
           <p className="mt-4 text-xl font-semibold flex justify-center items-center gap-2">
-            <PhoneCall /> +880 1730 072575
+            <PhoneCall /> +8801339-873132
           </p>
 
           <a
